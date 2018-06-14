@@ -1,6 +1,6 @@
 
 # create an empty dictionary
-d = &#123;'a':1,'b':2,'c':3,'d':4&#125;
+d = {'a':1,'b':2,'c':3,'d':4}
 print(d)
 
 # get value of a (use 5 if not set)

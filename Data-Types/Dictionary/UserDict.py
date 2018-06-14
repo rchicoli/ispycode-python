@@ -3,7 +3,7 @@ import UserDict
 
 class MyDict(UserDict.UserDict):
 
-  def __init__(self, data = &#123;&#125;, **kw):
+  def __init__(self, data = {}, **kw):
     UserDict.UserDict.__init__(self)
     self.update(data)
     self.update(kw)

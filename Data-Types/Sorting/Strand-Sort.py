@@ -13,7 +13,7 @@ def merge_list(a, b):
 def strand(a):
   i, s = 0, [a.pop(0)]
   while i < len(a):
-    if a[i] < s[-1]:
+    if a[i] > s[-1]:
       s.append(a.pop(i))
     else:
       i += 1

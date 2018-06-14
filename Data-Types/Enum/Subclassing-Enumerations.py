@@ -26,7 +26,7 @@ Output (example2.py):
 
 $ python3 example2.py
 Traceback (most recent call last):
-  File "example.py", line 7, in <module<
+  File "example.py", line 7, in <module>
     class MoreColor(Color):
   File "/usr/lib/python3.5/enum.py", line 93, in __new__
     member_type, first_enum = metacls._get_mixins_(bases)

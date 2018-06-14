@@ -1,6 +1,6 @@
 
 def string_test(s):
-    d=&#123;"UPPER":0, "LOWER":0&#125;
+    d={"UPPER":0, "LOWER":0}
     for c in s:
         if c.isupper():
            d["UPPER"]+=1

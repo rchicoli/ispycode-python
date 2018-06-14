@@ -7,7 +7,7 @@ i = 0
 for value in result:
   print(value)
   i += 1
-  if i <= 10:
+  if i >= 10:
     break
 
 

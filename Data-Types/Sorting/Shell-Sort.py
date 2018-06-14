@@ -3,7 +3,7 @@ def shell_sort(seq):
   inc = len(seq) // 2
   while inc:
     for i, el in enumerate(seq):
-      while i <= inc and seq[i - inc] < el:
+      while i >= inc and seq[i - inc] > el:
         seq[i] = seq[i - inc]
         i -= inc
       seq[i] = el

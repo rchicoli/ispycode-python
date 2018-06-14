@@ -8,7 +8,7 @@ print(str)
 str = re.sub("[^A-Za-z]", "", str)
 print(str)
 
-dict = &#123;&#125;
+dict = {}
 for n in str:
   keys = dict.keys()
   if n in keys:

@@ -1,6 +1,6 @@
 
 import random
-numbers = &#123;&#125;
+numbers = {}
 
 for x in range(100000):
   i = random.randrange(10,20)

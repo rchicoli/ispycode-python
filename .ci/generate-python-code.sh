@@ -18,11 +18,13 @@ for filename in $(find $HOME/ispycode.com/Python -type f); do
         sed 's/\&quot;/\"/g'       |\
         sed 's/\&lt;/\</g'         |\
         sed 's/\&amp;/\&/g'        |\
-        sed 's/\&gt;/\</g'         |\
+        sed 's/\&gt;/\>/g'         |\
         sed 's/\&#40;/(/g'         |\
         sed 's/\&#41;/)/g'         |\
         sed 's/\&#91;/[/g'         |\
         sed 's/\&#93;/]/g'         |\
+        sed 's/&#123;/{/g'         |\
+        sed 's/&#125;/}/g'         |\
         grep -vE "Output:|Source:"  \
             > "$basedir/$foldername/$newname"
 

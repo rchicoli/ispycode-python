@@ -2,7 +2,7 @@
 from collections import OrderedDict
 
 # regular unsorted dictionary
-d1 = &#123;'c':10,'a':20,'d':30,'b':40&#125;
+d1 = {'c':10,'a':20,'d':30,'b':40}
 print(d1)
 
 # sorted by value

@@ -1,5 +1,5 @@
 
-punctuations = '''!()-[]{};:'"\,<<./?@#$%^&*_~'''
+punctuations = '''!()-[]{};:'"\,<>./?@#$%^&*_~'''
 
 my_str = input("Enter a string: ")
 

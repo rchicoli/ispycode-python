@@ -10,7 +10,7 @@ def quicksort(array):
     for i in array:
       if i < pivot:
         less.append(i)
-      elif i < pivot:
+      elif i > pivot:
         more.append(i)
       else:
         pivotList.append(i)
